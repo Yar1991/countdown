@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <section class="main">
+        <div class="title-box">
+          <h1 class="title-box_heading">We are starting soon!</h1>
+        </div>
+        <div class="content-box">
+          <div>
+            <h3 class="days item" data-type="days count">10</h3>
+            <h3 class="text">days</h3>
+          </div>
+          <div>
+            <h3 class="hours item" data-type="hours count">03</h3>
+            <h3 class="text">hours</h3>
+          </div>
+          <div>
+            <h3 class="minutes item" data-type="minutes count">30</h3>
+            <h3 class="text">mins</h3>
+          </div>
+          <div>
+            <h3 class="seconds item" data-type="seconds count">00</h3>
+            <h3 class="text">secs</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

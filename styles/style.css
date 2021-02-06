@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Limelight", cursive;
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../back.jpg") no-repeat center center/cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.page-container .main {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  color: #fff;
+}
+
+.page-container .main .title-box {
+  margin-bottom: 5rem;
+}
+
+.page-container .main .title-box .title-box_heading {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.page-container .main .content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-content: center;
+  grid-gap: 2rem;
+}
+
+.page-container .main .content-box div {
+  position: relative;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-right: 1rem;
+  box-shadow: 6px 6px #cfcfcf;
+  transform: scaleY(1);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.page-container .main .content-box div:hover {
+  box-shadow: 9px 9px #cfcfcf;
+}
+
+.page-container .main .content-box div .item {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.page-container .main .content-box div .text {
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */

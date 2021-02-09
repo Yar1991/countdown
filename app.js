@@ -10,7 +10,6 @@ gsap.from(boxes, {duration: 1, opacity: 0, y: '-1000px', ease: "circ.out", delay
 
 setInterval(()=>{
 
-  const itemsBox = document.querySelector('.content-box');
   const items = document.querySelectorAll('.item');
   const tempYear = new Date().getFullYear();
   const tempMonth = new Date().getMonth();
